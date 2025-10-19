@@ -1,0 +1,1 @@
+Redirect the log of the game to HTML Console.

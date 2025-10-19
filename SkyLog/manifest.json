@@ -1,0 +1,13 @@
+{
+  "package_name": "skylog",
+  "version": "0.0.1",
+  "game_edition": 3,
+  "mod_name": "Sky Log Dump",
+  "description": "Redirect the game's log to HTML Console.",
+  "main": "skylog.dll",
+  "dependencies": {},
+  "keywords": [],
+  "author": "HTMonkeyG",
+  "license": "MIT",
+  "website": ""
+}
