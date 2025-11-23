@@ -1,0 +1,15 @@
+{
+  "package_name": "out-of-0",
+  "version": "1.0.0",
+  "game_edition": 3,
+  "mod_name": "Out of 0",
+  "description": "A general optimization mod for Sky.",
+  "main": "out-of-0.dll",
+  "dependencies": {},
+  "keywords": [
+    "optimization"
+  ],
+  "author": "HTMonkeyG",
+  "license": "MIT",
+  "website": ""
+}
