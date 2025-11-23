@@ -13,7 +13,7 @@ CPP_OBJ = $(addprefix $(DIST_DIR)/, $(notdir $(CPP_SRC:.cpp=.o)))
 
 VERSION_SCRIPT = $(SRC_DIR)/exports.txt
 
-TARGET = out-of-cpu0.dll
+TARGET = out-of-0.dll
 BIN_TARGET = $(DIST_DIR)/$(TARGET)
 
 # Compiler paths.
