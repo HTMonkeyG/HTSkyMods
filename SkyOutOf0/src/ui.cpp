@@ -13,6 +13,9 @@ void OzToggleMenuState() {
 void OzRenderUi() {
   bool changed;
 
+  if (!gShowMenu)
+    return;
+
   if (!ImGui::Begin("Out of Zero", &gShowMenu))
     return ImGui::End();
   ImGui::PushID("Out of Zero");
