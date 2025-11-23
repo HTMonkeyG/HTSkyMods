@@ -6,7 +6,6 @@ i32 gFpsLimit = 120;
 static LARGE_INTEGER gLastFrameTime = {0};
 
 u08 OzShouldRender() {
-  u08 result = 0;
   LARGE_INTEGER currentFrameTime;
 
   if (!gLastFrameTime.QuadPart) {
@@ -20,10 +19,10 @@ u08 OzShouldRender() {
   u64 tickElapsed = currentFrameTime.QuadPart - gLastFrameTime.QuadPart;
 
   // Avoid divide by 0.
-  if (tickElapsed && gPerfFreqDouble / (f64)tickElapsed <= (f64)gFpsLimit)
-    result = 1;
+  if (tickElapsed && gPerfFreqDouble / (f64)tickElapsed <= (f64)gFpsLimit) {
+    gLastFrameTime = currentFrameTime;
+    return 1;
+  }
 
-  gLastFrameTime = currentFrameTime;
-
-  return result;
+  return 0;
 }

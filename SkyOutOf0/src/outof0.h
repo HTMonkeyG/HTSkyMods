@@ -8,6 +8,8 @@
 extern "C" {
 #endif
 
+#define OzText_KeyOptionFpsLimit "outof0:fps"
+
 // The handle of current DLL.
 extern HMODULE hModuleDll;
 // FPS limitation.
@@ -23,6 +25,8 @@ void OzQueryPerfFreq();
 void OzInstallAllHooks();
 // Render ImGui.
 void OzRenderUi();
+// Toggle menu state.
+void OzToggleMenuState();
 
 // Detect frame rate and return whether rendering is needed.
 u08 OzShouldRender();
