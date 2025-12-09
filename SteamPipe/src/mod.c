@@ -1,11 +1,11 @@
 #include "includes/htmod.h"
 
-#include "steamsky.h"
+#include "steampipe.h"
 
 __declspec(dllexport) HTStatus HTMLAPI HTModOnInit(
   void *
 ) {
-  if (!stInitSteamApi())
+  if (!spInitSteamApi())
     HTTellText("§c[SteamPipe] Init steam failed.");
   else
     HTTellText("[SteamPipe] Inited steam.");

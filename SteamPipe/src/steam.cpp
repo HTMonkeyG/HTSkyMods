@@ -2,8 +2,8 @@
 #include "steam_api.h"
 #include "steam_api_flat.h"
 
-#include "steamsky.h"
+#include "steampipe.h"
 
-i08 stInitSteamApi() {
+i08 spInitSteamApi() {
   return SteamAPI_Init();
 }

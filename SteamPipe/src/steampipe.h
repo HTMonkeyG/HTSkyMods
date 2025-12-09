@@ -1,5 +1,5 @@
-#ifndef __STEAMSKY_H__
-#define __STEAMSKY_H__
+#ifndef __STEAMPIPE_H__
+#define __STEAMPIPE_H__
 
 #include "aliases.h"
 
@@ -7,7 +7,7 @@
 extern "C" {
 #endif
 
-i08 stInitSteamApi();
+i08 spInitSteamApi();
 
 #ifdef __cplusplus
 }
