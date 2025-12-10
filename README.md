@@ -9,7 +9,7 @@ The mods is for learning purposes only. Please do not misuse the mods in this re
 
 Mods are loaded with [HTModLoader](https://www.github.com/HTMonkeyG/HTML-Sky). See its [README](https://github.com/HTMonkeyG/HTML-Sky/blob/main/README.md) first.
 
-**This repository won't provide any pre-compiled binary files.** Clone and build all mods with MinGW-w64.
+**This repository won't provide any pre-compiled binary files.** Clone the repository and build all mods with MinGW-w64:
 
 ```sh
 git clone https://github.com/HTMonkeyG/HTSkyMods
