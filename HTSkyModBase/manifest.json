@@ -1,0 +1,13 @@
+{
+  "package_name": "htskymodbase",
+  "version": "1.0.0",
+  "game_edition": 1,
+  "mod_name": "HTSkyModBase",
+  "description": "Basic event system hooks of sky.",
+  "main": "htskymodbase.dll",
+  "dependencies": {},
+  "keywords": [],
+  "author": "HTMonkeyG",
+  "license": "MIT",
+  "website": ""
+}
