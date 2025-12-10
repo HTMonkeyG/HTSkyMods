@@ -7,3 +7,7 @@
 i08 spInitSteamApi() {
   return SteamAPI_Init();
 }
+
+void spRunSteamCallbacks() {
+  SteamAPI_RunCallbacks();
+}

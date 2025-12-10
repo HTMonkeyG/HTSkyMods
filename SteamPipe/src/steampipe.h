@@ -7,7 +7,18 @@
 extern "C" {
 #endif
 
+// Initialize steam api.
 i08 spInitSteamApi();
+
+// This function is called single-threaded in the game's main loop.
+void spRunSteamCallbacks();
+
+i08 spScreenShotRedirect(
+  const char *path,
+  i32 width,
+  i32 height);
+
+i08 spScreenShotTake();
 
 #ifdef __cplusplus
 }
