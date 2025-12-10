@@ -13,6 +13,9 @@ u08 OzShouldRender() {
     return 1;
   }
 
+  if (gFpsLimit >= 1000)
+    return 1;
+
   QueryPerformanceCounter(&currentFrameTime);
 
   // (currentFrameTime - gLastFrameTime) / gPerfFreqDouble >= 1 / gFpsLimit
