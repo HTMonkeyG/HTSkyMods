@@ -5,7 +5,7 @@
 HTMonkeyG's mods for Sky: Children of the Light.
 
 ## Usage
-The mods is for learning purposes only. Please do not misuse the mods in this repository to avoid adverse consequences, including but not limited to: reduced game performance or crashes, temporary or permanent account bans.
+The mods are for learning purposes only. Please do not misuse the mods in this repository to avoid adverse consequences, including but not limited to: reduced game performance or crashes, temporary or permanent account bans.
 
 Mods are loaded with [HTModLoader](https://www.github.com/HTMonkeyG/HTML-Sky). See its [README](https://github.com/HTMonkeyG/HTML-Sky/blob/main/README.md) first.
 
