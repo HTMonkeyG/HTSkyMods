@@ -1,0 +1,13 @@
+{
+  "package_name": "steam-pipe",
+  "version": "1.0.0",
+  "game_edition": 1,
+  "mod_name": "SteamPipe",
+  "description": "Attach Chinese edition of Sky to Steam.",
+  "main": "steam-pipe.dll",
+  "dependencies": {},
+  "keywords": [],
+  "author": "HTMonkeyG",
+  "license": "MIT",
+  "website": ""
+}
